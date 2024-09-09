@@ -2,6 +2,37 @@ site_name: CertDirectory
 site_url: https://certdirectory.ex-offenders.co.uk
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+  logo: images/logo.png
+
 
 nav:
   - Home: index.md
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - 'assets/extra.css'
