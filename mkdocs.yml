@@ -11,8 +11,6 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-  logo: images/logo.png
-
 
 nav:
   - Home: index.md
