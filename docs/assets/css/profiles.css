@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.check-box-section {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+/* Profile Card Styles */
+.user-work-place {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: 700;
+    color: rgb(77, 77, 77);
+}
+
+.social-links {
+    text-decoration: none;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 24px;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 243px;
+    height: 350px;
+    border: 3px solid #8C8C8C47;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .1);
+}
+
+.box-top {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 12px;
+    /* margin-bottom: 36px; */
+}
+
+.round-image {
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+    border-radius: 50%;
+    /* margin-top: 30px; */
+}
+
+.title-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.user-name {
+    line-height: 21.82px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.user-gender {
+    font-size: 10px;
+    line-height: 13.64px;
+    font-weight: 700;
+    color: #1E1E1E82;
+}
+
+.user-work-place {
+    color: #8C8C8C;
+    font-weight: 700;
+    line-height: 19.2px;
+    margin-top: 6px;
+}
+
+.social_media_icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.social_icon {
+    height: 20px;
+    width: 20px;
+}
+
+/* @media (max-width: 768px) {
+    .box {
+        width: calc(50% - 24px);
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 80%;
+    }
+} */
+
+/* PROFILE POPUP STYLES */
+
+/* Modal container */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fff;
+    width: 90%;
+    max-width: 700px;
+    max-height: 60vh;
+    border-radius: 10px;
+    overflow-y: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* larger screens */
+.modal-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+/* Profile left section */
+.profile-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.profile-picture {
+    object-fit: cover;
+    width: 178px;
+    height: 178px;
+    border-radius: 50%;
+}
+
+.profile-pronouns {
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    color: rgba(30, 30, 30, 0.51);
+    margin-top: 20px;
+}
+
+.position {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Arial", sans-serif;
+    margin-top: 10px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Profile right section */
+.profile-right {
+    flex: 2;
+    padding: 15px;
+}
+
+.profile-right h2 {
+    font-size: 20px;
+    font-family: "Arial", sans-serif;
+    font-weight: 700;
+}
+
+.profile-right p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    font-size: 12px;
+    color: rgba(140, 140, 140, 1);
+}
+
+.location img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 16px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0.42);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.42);
+    height: 20px;
+    width: 20px;
+}
+
+.modal-content {
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+/* CERTIFICATION STYLES */
+.cert-list-container>ul {
+    list-style-type: none;
+    list-style: none;
+}
+
+/* Media Queries for Responsiveness
+
+/* mobile view */
+/* @media (max-width: 600px) {
+    .modal-content {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .modal-body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-left {
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+    }
+
+    .profile-right h2 {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-right p {
+        font-size: 14px;
+    }
+
+    .location {
+        font-size: 12px;
+    }
+} */
+
+/* For medium screens (tablets) */
+/* @media (max-width: 768px) {
+    .modal-content {
+        width: 85%;
+        padding: 30px;
+    }
+
+    .profile-right h2 {
+        font-size: 18px;
+    }
+
+    .profile-right p {
+        font-size: 14px;
+    }
+
+    .profile-picture {
+        width: 160px;
+        height: 160px;
+    }
+}  */

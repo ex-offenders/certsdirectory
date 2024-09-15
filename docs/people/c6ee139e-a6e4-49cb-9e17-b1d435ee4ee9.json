@@ -1,0 +1,15 @@
+{
+  "id": "c6ee139e-a6e4-49cb-9e17-b1d435ee4ee9",
+  "name": "Anuradha Abeysuriya",
+  "profileImageLink": "c6ee139e-a6e4-49cb-9e17-b1d435ee4ee9.jpg",
+  "gender": "Male",
+  "bio": "Thaddeus Zambellis is an innovative IT entrepreneur and the driving force behind Outcept, a forward-thinking tech  Specializing in Kubernetes, Thaddeus excels in orchestratingcontainerized applications to enhance scalability and performance.With a deep passion for Python and a keen interest in UIdevelopment using Vue, Thaddeus consistently pushes the boundariesof modern software solutions. Their expertise and dedicationposition Outcept at the forefront of the technology industry.",
+  "workPlace": "Wired2Perform",
+  "position": "Tech Lead",
+  "country": "United States",
+  "socialLinks": [
+    { "platform": "github", "link": "https://localhost:8080" },
+    { "platform": "linkedin", "link": "https://localhost:8080" },
+    { "platform": "twitter", "link": "https://localhost:8080" }
+  ]
+}
