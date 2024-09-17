@@ -1,10 +1,14 @@
+
+let baseURL;
 document$.subscribe(() => {
+  // init the base URL
+  baseURL = window.location.origin + "/";
   loadProviders();
   handleProviderChange(); // Load certifications based on default provider
   fetchCountries();
 });
 
-const baseURL = window.location.origin + "/";
+
 function loadProviders() {
   // Fetch providers from the providers.json file
   fetch(baseURL + "information/providers.json")
