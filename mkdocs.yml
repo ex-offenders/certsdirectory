@@ -1,5 +1,5 @@
 site_name: CertDirectory
-site_url: https://certdirectory.ex-offenders.co.uk/
+site_url: https://certdirectory.ex-offenders.co.uk
 theme:
   name: material
   features:
