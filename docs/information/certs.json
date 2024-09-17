@@ -1,26 +1,26 @@
 {
   "AWS": [
-    { "text": "AWS Certified Cloud Practitioner", "value": "AW-001" },
+    { "text": "AWS Certified Cloud Practitioner", "value": "AWS-001" },
     {
       "text": "AWS Certified Solutions Architect – Associate",
-      "value": "AW-002"
+      "value": "AWS-002"
     },
-    { "text": "AWS Certified Developer – Associate", "value": "AW-003" },
+    { "text": "AWS Certified Developer – Associate", "value": "AWS-003" },
     {
       "text": "AWS Certified SysOps Administrator – Associate",
-      "value": "AW-004"
+      "value": "AWS-004"
     },
     {
       "text": "AWS Certified Solutions Architect – Professional",
-      "value": "AW-005"
+      "value": "AWS-005"
     }
   ],
   "Azure": [
     { "text": "Azure Fundamentals", "value": "Azure-001" },
     { "text": "Azure Administrator Associate", "value": "Azure-002" },
-    { "text": "Azure Solutions Architect Expert", "value": "AZ-305" },
-    { "text": "Azure Security Engineer Associate", "value": "AZ-500" },
-    { "text": "Azure DevOps Engineer Expert", "value": "AZ-400" }
+    { "text": "Azure Solutions Architect Expert", "value": "Azure-305" },
+    { "text": "Azure Security Engineer Associate", "value": "Azure-500" },
+    { "text": "Azure DevOps Engineer Expert", "value": "Azure-400" }
   ],
   "GCP": [
     { "text": "Google Cloud Digital Leader", "value": "GCP-003" },
