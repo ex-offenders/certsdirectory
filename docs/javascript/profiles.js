@@ -11,7 +11,7 @@ document$.subscribe(() => {
 
 function loadProviders() {
   // Fetch providers from the providers.json file
-  fetch(baseURL + "information/providers.json")
+  fetch(baseURL + "providers.json")
     .then((response) => response.json())
     .then((providers) => {
       const providerSelect = document.getElementById("providerSelect");
