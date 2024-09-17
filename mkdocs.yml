@@ -14,6 +14,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Profile: profiles.md
 
 markdown_extensions:
   - pymdownx.emoji:
@@ -33,4 +34,8 @@ markdown_extensions:
       custom_checkbox: true
 
 extra_css:
-  - 'assets/extra.css'
+  - 'assets/css/extra.css'
+  - 'assets/css/profiles.css'
+
+extra_javascript:
+  - javascript/profiles.js
