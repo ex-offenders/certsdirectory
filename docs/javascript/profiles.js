@@ -264,13 +264,12 @@ async function showProfileModal(profile) {
             .join("")
         : "<li>No certifications found for this user.</li>";
 
-    const certListContainer = document.createElement("div");
-    certListContainer.classList.add("cert-list-container"); // Add a class to identify it later for clearing
-    certListContainer.innerHTML = `
+    const certificationContainer = modal.querySelector(".certifications");
+    certificationContainer.innerHTML = `
         <h3>Certifications:</h3>
         <ul>${certListHTML}</ul>
       `;
-    modal.querySelector(".profile-right").appendChild(certListContainer);
+      certificationContainer.appendChild(certListContainer);
   });
 
   // Show the modal
