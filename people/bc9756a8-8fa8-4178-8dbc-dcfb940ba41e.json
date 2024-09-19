@@ -1,0 +1,15 @@
+{
+  "id": "bc9756a8-8fa8-4178-8dbc-dcfb940ba41e",
+  "name": "Sasindu Dananjaya",
+  "profileImageLink": "bc9756a8-8fa8-4178-8dbc-dcfb940ba41e.jpg",
+  "gender": "Male",
+  "bio": "Thaddeus Zambellis is an innovative IT entrepreneur and the driving force behind Outcept, a forward-thinking tech  Specializing in Kubernetes, Thaddeus excels in orchestratingcontainerized applications to enhance scalability and performance.With a deep passion for Python and a keen interest in UIdevelopment using Vue, Thaddeus consistently pushes the boundariesof modern software solutions. Their expertise and dedicationposition Outcept at the forefront of the technology industry.",
+  "workPlace": "Codegen",
+  "position": "Software Engineer",
+  "country": "Canada",
+  "socialLinks": [
+    { "platform": "github", "link": "https://localhost:8080" },
+    { "platform": "linkedin", "link": "https://localhost:8080" },
+    { "platform": "twitter", "link": "https://localhost:8080" }
+  ]
+}

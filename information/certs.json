@@ -1,0 +1,34 @@
+{
+  "AWS": [
+    { "text": "AWS Certified Cloud Practitioner", "value": "AWS-001","icon" : "CLF-C02.png" },
+    {
+      "text": "AWS Certified Solutions Architect – Associate",
+      "value": "AWS-002",
+      "icon" : "SAA-C03.png"
+    },
+    { "text": "AWS Certified Developer – Associate", "value": "AWS-003", "icon": "DVA-C02.png" },
+    {
+      "text": "AWS Certified SysOps Administrator – Associate",
+      "value": "AWS-004", "icon" : "SOA-C02.png"
+    },
+    {
+      "text": "AWS Certified Solutions Architect – Professional",
+      "value": "AWS-005",
+      "icon" : "SAP-C02.png"
+    }
+  ],
+  "Azure": [
+    { "text": "Azure Fundamentals", "value": "Azure-001", "icon": "AZ-900.svg" },
+    { "text": "Azure Administrator Associate", "value": "Azure-002", "icon": "AZ-204.svg" },
+    { "text": "Azure Solutions Architect Expert", "value": "Azure-305", "icon": "AZ-400.svg" },
+    { "text": "Azure Security Engineer Associate", "value": "Azure-500", "icon": "" },
+    { "text": "Azure DevOps Engineer Expert", "value": "Azure-400", "icon": "PL-600.svg" }
+  ],
+  "GCP": [
+    { "text": "Google Cloud Digital Leader", "value": "GCP-003", "icon":"Cloud Digital Leader Certification.png" },
+    { "text": "Google Associate Cloud Engineer", "value": "GCP-200", "icon":"Associate Cloud Engineer Certification.png" },
+    { "text": "Google Professional Cloud Architect", "value": "GCP-300", "icon":"Professional Cloud Architect Certification.png" },
+    { "text": "Google Professional Data Engineer", "value": "GCP-400", "icon":"Professional Data Engineer Certification.png" },
+    { "text": "Google Professional Cloud DevOps Engineer", "value": "GCP-500", "icon":"Professional Cloud DevOps Engineer Certification.png" }
+  ]
+}

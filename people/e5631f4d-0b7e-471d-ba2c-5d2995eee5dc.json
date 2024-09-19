@@ -1,0 +1,15 @@
+{
+  "id": "e5631f4d-0b7e-471d-ba2c-5d2995eee5dc",
+  "name": "Malith Geevinda",
+  "profileImageLink": "e5631f4d-0b7e-471d-ba2c-5d2995eee5dc.jpeg",
+  "gender": "Male",
+  "bio": "Thaddeus Zambellis is an innovative IT entrepreneur and the driving force behind Outcept, a forward-thinking tech  Specializing in Kubernetes, Thaddeus excels in orchestratingcontainerized applications to enhance scalability and performance.With a deep passion for Python and a keen interest in UIdevelopment using Vue, Thaddeus consistently pushes the boundariesof modern software solutions. Their expertise and dedicationposition Outcept at the forefront of the technology industry.",
+  "workPlace": "Kubeflex",
+  "position": "Software Engineer",
+  "country": "Sri Lanka",
+  "socialLinks": [
+    { "platform": "github", "link": "https://localhost:8080" },
+    { "platform": "linkedin", "link": "https://localhost:8080" },
+    { "platform": "twitter", "link": "https://localhost:8080" }
+  ]
+}

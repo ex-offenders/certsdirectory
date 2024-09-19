@@ -1,0 +1,23 @@
+.heart {
+    color: red;
+    margin-right: 5px;
+    font-size: 1.2em;
+    animation: heart 1000ms infinite;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+@keyframes heart {
+
+    0%,
+    40%,
+    80%,
+    100% {
+        transform: scale(1);
+    }
+
+    20%,
+    60% {
+        transform: scale(1.15);
+    }
+}

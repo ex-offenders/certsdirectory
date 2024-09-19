@@ -1,0 +1,77 @@
+/* certificate icons */
+.certificates-section {
+  text-align: left;
+}
+
+.certificates {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.certificate-icon {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.certificate-icon a {
+  flex-shrink: 0;
+}
+
+.certificate-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.certificate-name {
+  position: relative;
+  display: inline-block;
+}
+
+.name-text {
+  visibility: hidden;
+  width: 150px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.name-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.certificate-name:hover .name-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* mobile view */
+@media (max-width: 600px) {
+  .certificates-section{
+    text-align: center;
+  }
+  .certificate-icon{
+    justify-content: center;
+    align-items: center;
+  }
+}
