@@ -4,16 +4,51 @@ hide:
   - toc
 ---
 
-<div class="check-box-section">
-      <select id="providerSelect" onchange="handleProviderChange()">
-        <option value="">Select Providers</option>
-      </select>
-      <select id="certSelect" onchange="handleCertChange()">
-        <option value="">Select Certificate</option>
-      </select>
-      <select id="countrySelect" onchange="handleChangeCountry()">
-        <option value="">Select Country</option>
-      </select>
+<!-- Connect Icons CDN -->
+<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<div class="check-box-section">  
+          <!-- Provider Select -->
+    <div class="wrapper" data-type="providers">
+        <div class="select-btn">
+          <span>All Providers</span>
+          <i class="uil uil-angle-down"></i>
+        </div>
+        <div class="content">
+          <div class="search">
+            <i class="uil uil-search"></i>
+            <input spellcheck="false" type="text" placeholder="Search Providers" autofocus>
+          </div>
+          <ul class="options"></ul>
+        </div>
+    </div>
+    <!-- Certification Select -->
+    <div class="wrapper" data-type="certifications">
+        <div class="select-btn">
+          <span>All certifications</span>
+          <i class="uil uil-angle-down"></i>
+        </div>
+        <div class="content">
+          <div class="search">
+            <i class="uil uil-search"></i>
+            <input spellcheck="false" type="text" placeholder="Search Certifications" autofocus>
+          </div>
+          <ul class="options"></ul>
+        </div>
+    </div>
+    <!-- Country Select -->
+    <div class="wrapper" data-type="countries">
+        <div class="select-btn">
+          <span>All countries</span>
+          <i class="uil uil-angle-down"></i>
+        </div>
+        <div class="content">
+          <div class="search">
+            <i class="uil uil-search"></i>
+            <input spellcheck="false" type="text" placeholder="Search Countries" autofocus>
+          </div>
+          <ul class="options"></ul>
+        </div>
+    </div>
     <button type="reset" id="reset" onclick="resetFilters()">Reset</button>
 </div>
 
@@ -40,9 +75,10 @@ hide:
         <div class="profile-right">
           <h2></h2>
           <p></p>
-          <div class="certifications">
-          <!-- Certifications -->
-          </div>
+          <div class="certificates-section">
+              <div class="certificates">Certificates</div>
+              <div class="certificate-icon"></div>
+            </div>
         </div>
       </div>
     </div>

@@ -13,7 +13,6 @@ theme:
     - navigation.expand
 
 nav:
-  - Home: index.md
   - Profile: profiles.md
 
 markdown_extensions:
@@ -36,6 +35,8 @@ markdown_extensions:
 extra_css:
   - 'assets/css/extra.css'
   - 'assets/css/profiles.css'
+  - 'assets/css/selectSearch.css'
+  - 'assets/css/certificates.css' 
   - 'overrides/custom.css'
 
 extra_javascript:
